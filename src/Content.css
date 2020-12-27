@@ -1,0 +1,31 @@
+.main{
+    width: 82%;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1.5%;
+    min-width: 800px;
+}
+.center-container{
+    width: 75%;
+    height: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+.stats-container{
+    width: 35%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.Months-container{
+    width: 27%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}

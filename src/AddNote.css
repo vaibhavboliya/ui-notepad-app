@@ -1,0 +1,139 @@
+.AddNote-Container{
+flex: 4;
+}
+.AddNote{
+width: 80%;
+height: 150px;
+margin: 18px 30px ;
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+padding: 18px 25px;
+}
+.textarea{
+    border: 0;
+    height: 40%;
+    width: 95%;
+    padding: 10px;
+    background: #FAFAFA;
+    color: #BABABA;
+border-radius: 15px;
+}
+.optionContainer{
+    height: 40%;
+    display: flex;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: space-between;
+}
+.cancel{
+    align-self: center;
+    font-size: 17px;
+line-height: 20px;
+ margin-left: 20px;
+color: #EF3E36; 
+}
+.rightContainer{
+    display: flex;
+
+}
+.share{
+    width: 140px;
+height: 50px;
+background: #FF6C40;
+border-radius: 11px 0 0 11px;
+display: flex;
+justify-content: center;
+align-self: center;
+
+
+}
+.downIcon{
+    background: #FFC480;
+border-radius: 0 11px 11px 0 ;
+width: 39.69px;
+align-self: center;
+height: 50px;
+color: #FF6C40;
+
+}
+.attachIcon{
+    background: #FFC480;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    color: #FF6C40;
+}
+.shareText{
+    font-size: 20px;
+line-height: 24px;
+align-self: center;
+color: #F2D8D5;
+}
+.post{
+    width: 85%;
+    margin: 18px 30px ;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+    
+    
+}
+.postDetails{
+    padding: 18px 25px;
+    display: flex;
+
+}
+.userpic{
+    border-radius: 15px;
+    width: 59.54px;
+    height: 59.54px;
+}
+.postContent{
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.userDetail{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.userContent{
+    font-weight: 200;
+font-size: 17px;
+line-height: 20px;
+}
+
+.comment{
+    height: 59px;
+    background: #FAFAFA;
+border-radius: 0px 0px 15px 15px;
+display: flex;
+padding: 18px 25px;
+
+
+}
+.commentInput{
+    font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+background: #FAFAFA;
+outline: none;
+border: none;
+color: #D3D3D3;
+margin-left: 20px;
+width: 90%;
+}
+.sendIcon{
+    transform: rotate(310deg);
+    color:  #733D47;
+    font-size: 29px;
+    align-self: center;
+    text-align: right;
+}
