@@ -1,5 +1,4 @@
 import SideNavbar from './SideNavbar';
-import Content from './Content'
 import './App.css';
 import Switchlink from './Switchlink';
 
