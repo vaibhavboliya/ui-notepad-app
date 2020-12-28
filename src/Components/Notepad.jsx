@@ -10,15 +10,19 @@ class Notepad extends Component {
         </div>
         return (
             <div className="Notepad">
+                <div style={{'width':'90%','display':'flex','flexWrap':'wrap','overflow':'auto'}}>
+
+                
                 <span className="NotepadTitle">Notepad</span>
 
                 {notepadTile}
                 {notepadTile}
                 {notepadTile}
                 {notepadTile}
-                
-                
+                </div>
+                <div style={{'width':'10%','height':'100%','display':'flex','flexDirection':'column-reverse'}}>
                 <Link to="/addnote"><MdAddCircle className='floatingButton' /></Link>
+                </div>
             </div>
         )
     }
