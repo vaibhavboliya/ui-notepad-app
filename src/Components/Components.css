@@ -86,6 +86,9 @@ opacity: 0.8;
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
+ 
+    
+   
 }
 .NotepadTitle{
     font-weight: 300;
@@ -98,19 +101,14 @@ margin: 10px 20px;
     font-size: 17px;
     line-height: 24px;
     margin: 10px  0 0 15px ;
-    overflow: hidden;
 
 }
 .floatingButton{
-    position: relative;
+  float: right;
 width: 48px;
 height: 48px;
 border-radius:50% ;
 color: #FF6C40;
-align-self: flex-end;
-
-/* bottom: 20px;
-right: 20px; */
 }
 .Notification{
     width: 24%;
