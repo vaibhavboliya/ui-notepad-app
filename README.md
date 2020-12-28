@@ -1,6 +1,6 @@
 # UI-Layout
 
-### you can check the site at [HERE](https://ui-notepad-design.netlify.app/) 
+### you can check the site live [HERE](https://ui-notepad-design.netlify.app/) 
 
 ### Technologies & Languages
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript&logoColor=ddc508)
